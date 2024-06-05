@@ -5,8 +5,6 @@
 
 .bg-gradientB {
     background: linear-gradient(to bottom, var(--ColorPrimary), var(--ColorSecond));
-    margin: 0;
-    padding: 0;
     height: 100vh;
 }
 
@@ -45,4 +43,18 @@
     width: 100%;
     left: 0;
     background: white;
+}
+
+/* background img */
+
+.bg-part2{
+    position: relative;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://s3-alpha-sig.figma.com/img/bbab/57e6/a2d9a7ed5f7cfddff24554c8e03e0065?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jWoY8Pg~9g97K~X9aEttDs3Hb3BMq17rNKzqQXczyVcTvwIiXlzZnxifcOPS0jfrO9gkkdPfxH2Nm1NeuRWDjcq~H9LP4~zIu9xJKjhPeCkND2ns~ybiTJKlHyEn3gH85l818GoyWPevSOtcWPhKHt3k~pzTR86zj0rGgxjWBoG83QMJdz1g4ypJQU7FuJUM6HK-Hqwqy9Zu5zS4r2FK0AeSA94wefKf7Lt3AzSj64ZGGE3LaLZEeW8XIXz8mhjLsI8yuP6srnj5bHaEdlHiCEeO-tf5ccvGm~k8I-zknGDCMBj5MhsYQaO8LsAgv5qlverXG~~SxRFk3THkmRlV~Q__');
+      background-position: center bottom;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
 }

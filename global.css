@@ -1,0 +1,48 @@
+:root {
+    --ColorPrimary: #084199;
+    --ColorSecond: #27A9C4;
+}
+
+.bg-gradientB {
+    background: linear-gradient(to bottom, var(--ColorPrimary), var(--ColorSecond));
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.bg-header {
+    position: relative;
+    background: 
+        linear-gradient(rgba(8, 65, 153, 0.5), rgba(8, 65, 153, 0.5)),
+        url('https://s3-alpha-sig.figma.com/img/83f4/a398/cdb5fe35172b5da04c357dc90c5db108?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ftc1laLd5JMhDdutG7cAb9QFP-EailGphaFCJfNw2PaVujtctUoKTn7jTMGW-1J~2newIHFpxDTm-1G9mplSUT2mMrcBqzII7njC6hksBgXiFqALUs0U4K7-NqtcA8i7KBXDG2Cln~lshk8jBvnBtNL5H8zZ3wM2TTqVfEO4GXK1qijvbvj4XS7Glqxgi5MkF2GVKaLUhe7FRy6Fgv1mh~DY6XjfeeVkFKL49fXLVb0YGcYdp3XijPG4xAO5-v9fcEbV-vVr1yv-5LFw7ldsQ5lWF3Ad6QxJM04ScRphcvJR0ZR0GZs6AnJ~clay2o9aqCwveIcrMObyLTZ1RXIFEw__');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+}
+
+ /* animation nav links */
+
+ .nav-link {
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: white;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    left: 0;
+    background: white;
+}

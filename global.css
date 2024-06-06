@@ -167,3 +167,28 @@ body {
 .button:hover {
     background-color: #0056b3;
 }
+
+.bg-img{
+    position: absolute;
+    padding-right: 100%;
+    height: 70%;
+    background: url('imgs/coral2.svg') no-repeat top right;
+    background-size: contain;
+    display: flex;
+}
+
+h1 {
+    color: white; 
+    text-align: start;
+    padding: 40px;
+}
+
+ul li {
+    color: white; 
+    font-size: 2em;
+    text-align: start;
+    list-style: none;
+    padding: 4px;
+}
+
+
